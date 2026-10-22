@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="环游国际 · 订单同步与合同助手 Microsoft Edge 扩展隐私政策。">
+  <title>隐私政策 · 环游国际订单同步与合同助手</title>
+  <style>
+    :root{color-scheme:light;font-family:system-ui,-apple-system,"Segoe UI","Microsoft YaHei",sans-serif;color:#20334e;background:#eef2f8;line-height:1.85}
+    *{box-sizing:border-box}body{margin:0;padding:40px 18px}main{max-width:900px;margin:auto;background:#fff;border:1px solid #d2deee;border-radius:16px;overflow:hidden}
+    header{padding:30px 34px;background:#173d86;color:#fff}header p{margin:8px 0 0;color:#dfe9ff;font-size:14px}h1{font-size:25px;line-height:1.5;margin:0}article{padding:16px 34px 32px}h2{font-size:19px;color:#173d86;margin:28px 0 10px}p,ul{margin:10px 0}li{margin:7px 0}a{color:#1b50b3;overflow-wrap:anywhere}strong{color:#18375c}.notice{padding:14px 18px;border-left:4px solid #2f5fd0;background:#f1f5fc;border-radius:6px}footer{font-size:13px;color:#50627b;border-top:1px solid #dde5ef;padding-top:18px;margin-top:28px}@media(max-width:600px){body{padding:14px 10px}header{padding:24px 20px}article{padding:10px 20px 24px}h1{font-size:22px}}
+  </style>
+</head>
+<body>
+<main>
+  <header><h1>隐私政策</h1><p>环游国际 · 订单同步与合同助手 ｜ Microsoft Edge 扩展</p><p>生效及更新日期：2026年10月22日 ｜ 适用版本：0.6.0</p></header>
+  <article>
+    <p class="notice">本扩展用于旅行社工作人员在取得授权后，将平台订单与对应电子合同业务对接到其自行运行的本机旅游管理系统。本声明说明扩展访问哪些数据、用途、数据去向和用户可采用的控制方式。</p>
+    <h2>一、适用范围与使用前提</h2>
+    <p>本声明适用于“环游国际 · 订单同步与合同助手”Microsoft Edge 浏览器扩展。旅行社自行运行的管理系统，以及携程、美团和全国旅游监管服务平台各自适用其相应的数据管理规则和隐私政策。工作人员应当仅处理其有权访问、且已按适用要求获得旅客授权的订单及合同信息，不得借助扩展访问无关人员的数据。</p>
+    <h2>二、访问和处理的数据</h2>
+    <ul>
+      <li><strong>身份及联系方式：</strong>相关订单和合同中的旅客、下单人、联系人或工作人员姓名、电话、证件信息，以及对应表单中已填写的其他身份信息。具体字段取决于平台返回内容及用户选择的任务。</li>
+      <li><strong>订单及交易信息：</strong>订单编号、产品和套餐、出行日期、人数、费用、订单或支付状态，以及履约相关备注、合同内容和签署状态；合同表单如包含付款方式等信息，也仅用于对应合同业务。扩展不提供银行卡支付、信贷或信用评估功能。</li>
+      <li><strong>地址及行程信息：</strong>订单接送地址、酒店、出发地、目的地及行程等业务地点。扩展不调用设备GPS定位，不跟踪设备的实时位置。</li>
+      <li><strong>合同中已有的特殊信息：</strong>如果授权工作人员提供或读取的合同表单中已填写健康说明等特殊个人信息，扩展可能随对应合同字段访问或回填这些内容，仅限该合同履约及核对用途，不用于画像或广告。</li>
+      <li><strong>认证及任务信息：</strong>复用用户自行登录平台后的浏览器会话；携程接口使用其GUID Cookie作为客户端标识。本机系统提供的任务许可用于校验具体任务。扩展不要求用户向扩展输入平台登录密码，不读取无关网站的Cookie，也不将平台Cookie发送给开发者。</li>
+      <li><strong>相关网站内容：</strong>为执行上述任务而读取平台订单页面、官方订单导出文件、电子合同表单及合同查询结果。扩展不采集其他网站的浏览历史、私人聊天记录，也不持续记录用户键盘输入、鼠标轨迹或浏览行为。</li>
+    </ul>
+    <h2>三、数据用途与权限</h2>
+    <p>数据仅用于工作人员发起的订单同步、合同表单准备、模板设置读取、合同查询和签署状态核对，以及任务进度与错误反馈。合同回填后的审核、提交、发送与签署由工作人员在平台自行确认；扩展不替代工作人员签署合同。</p>
+    <ul>
+      <li><strong>cookies：</strong>读取指定携程域的GUID Cookie，配合现有登录会话完成官方订单接口请求。</li>
+      <li><strong>declarativeNetRequestWithHostAccess：</strong>使用随包静态规则，仅对指定携程订单接口设置所需的来源请求头。</li>
+      <li><strong>scripting：</strong>向已声明、与任务有关的平台页面和本机管理页面注入随扩展提供的业务适配脚本。</li>
+      <li><strong>网站访问权限：</strong>携程及其文件下载域用于订单接口和官方文件下载；美团业务域用于订单读取；econtract.mr.mct.gov.cn用于电子合同业务；127.0.0.1用于与用户运行的本机管理系统通信。</li>
+    </ul>
+    <h2>四、数据去向与共享</h2>
+    <p>平台请求发送至用户正在使用的相应业务平台，订单、合同结果及任务进度发送至用户运行的本机旅游管理服务。合同准备功能可能把用户授权的旅客及行程资料填写到全国旅游监管服务平台的对应表单中。</p>
+    <p>本扩展没有开发者运营的订单采集或分析服务器，不向开发者的广告、分析服务发送上述业务数据，不出售、出租或代理交易用户数据，不将其用于与订单及合同管理无关的用途，也不用于信贷资格判断。平台自身对其服务所处理的数据承担其相应责任。</p>
+    <h2>五、存储、保留与安全</h2>
+    <p>扩展不建立独立的永久订单数据库；执行任务时会在运行内存中暂存任务、许可和处理结果。导入的订单、合同资料、进度和必要错误信息由用户运行的本机管理系统按照其已有设置保存，相关导出文件和备份由该系统或用户管理。浏览器平台登录会话由浏览器及平台管理。</p>
+    <p>与外部业务平台的请求使用HTTPS。本机服务通过127.0.0.1回环地址通信，当前使用HTTP及具体任务许可；此回环通信不作为开发者的公网数据接收接口。用户应保护主机、浏览器配置、本机管理系统账号、导出文件与备份，不应将包含个人信息的资料公开分享。</p>
+    <p>保留时间取决于用户管理系统的业务需要、备份管理及适用要求，本扩展不另设统一的云端保留期。停用或卸载扩展不会自动删除已导入本机系统的数据、导出文件、备份或平台记录。</p>
+    <h2>六、用户控制与个人信息请求</h2>
+    <p>工作人员可以不发起任务、取消进行中的任务（在支持取消的界面中操作）、退出平台登录，或在Microsoft Edge扩展管理页限制网站访问、停用及卸载扩展；限制所需权限后，相应功能可能不可用。</p>
+    <p>需要访问、更正或删除旅客资料、撤回授权时，请先联系实际持有订单和本机数据库的旅行社管理员，由其核实身份并按照适用要求处理本机记录、备份及必要的平台记录。扩展维护者不持有各旅行社的订单数据库，无法代替旅行社直接删除其本机业务数据。</p>
+    <h2>七、隐私咨询与政策更新</h2>
+    <p>关于本扩展数据处理或本政策的咨询，可通过<a href="https://github.com/lijianan826/travel-dispatch-extension-privacy/issues">公开维护仓库的联系入口</a>发起请求。该入口公开可见：<strong>请只说明一般问题或请求取得进一步联系，不要上传姓名电话清单、证件、订单、Cookie、密码或数据库。</strong>涉及具体旅客资料的请求请通过您与旅行社既有的私密联系渠道提出。</p>
+    <p>扩展的数据处理方式发生变化时，将更新本政策和商店披露信息。请以本页标明的更新日期及当前扩展版本为准。</p>
+    <footer>本页为公开隐私说明，不包含旅客或订单数据。页面由GitHub Pages托管，访问本页时托管服务可能按其自身政策处理必要的网络访问数据；本页未加入广告、分析脚本、远程字体或第三方追踪组件。</footer>
+  </article>
+</main>
+</body>
+</html>
